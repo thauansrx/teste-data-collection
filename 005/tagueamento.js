@@ -1,7 +1,6 @@
-$('button').on('click', function () {
-    //Cria uma msg acima do botão clicado com o texto do botão
-
+$('div').on('click', function () {
     console.log(this.innerText);
-
-
 });
+
+//corrigir erro, pois retorna apenas clicando na msg
+
